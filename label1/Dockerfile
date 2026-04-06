@@ -1,0 +1,4 @@
+FROM almalinux
+LABEL AUTHOR="JYOTHI" \
+      PROJECT="ROBOSSHOP" \
+      VERSION="1.0"
