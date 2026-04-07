@@ -1,4 +1,4 @@
 FROM almalinux
 RUN mkdir /app
-COPY /app .
+COPY . /app
 CMD [ "sleep","1000" ]
