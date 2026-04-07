@@ -6,4 +6,4 @@ RUN mkdir -p $APP_HOME && \
     useradd -m $APP_USER
 
 #WORKDIR $APP_HOME
-CMD [ "sleep","1000" ]
+CMD [ "mkdir","my_folder" ]
