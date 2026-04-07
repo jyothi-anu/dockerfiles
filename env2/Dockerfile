@@ -5,5 +5,5 @@ ENV APP_HOME=/app \
 RUN mkdir -p $APP_HOME && \
     useradd -m $APP_USER
 
-#WORKDIR $APP_HOME
+WORKDIR $APP_HOME
 CMD [ "mkdir","my_folder" ]
