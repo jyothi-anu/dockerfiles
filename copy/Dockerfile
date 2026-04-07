@@ -4,6 +4,6 @@ RUN useradd -m josh && \
 USER  josh
 
 WORKDIR /folder1
-WORKDIR logs
+#WORKDIR logs
 COPY index.html /folder1/
 CMD [ "sleep","2000" ]
