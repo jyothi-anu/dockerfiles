@@ -6,4 +6,5 @@ USER  josh
 WORKDIR /folder1
 #WORKDIR logs
 COPY index.html /folder1/
+COPY . .
 CMD [ "sleep","2000" ]
